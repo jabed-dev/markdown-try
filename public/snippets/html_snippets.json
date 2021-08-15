@@ -1,0 +1,430 @@
+{
+    "comment": {
+        "prefix": "!-",
+        "body": "<!-- $ -->"
+    },
+    "DOCTYPE": {
+        "prefix": "!DOCTYPE",
+        "body": "<!DOCTYPE html>"
+    },
+    "a": {
+        "prefix": "a",
+        "body": "<a href=\"$\"></a>"
+    },
+    "abbr": {
+        "prefix": "abbr",
+        "body": "<abbr>$</abbr>"
+    },
+    "address": {
+        "prefix": "address",
+        "body": "<address>$</address>"
+    },
+    "area": {
+        "prefix": "area",
+        "body": "<area>"
+    },
+    "article": {
+        "prefix": "article",
+        "body": "<article>$</article>"
+    },
+    "aside": {
+        "prefix": "audio",
+        "body": "<audio>$</audio>"
+    },
+    "b": {
+        "prefix": "b",
+        "body": "<b>$</b>"
+    },
+    "base": {
+        "prefix": "base",
+        "body": "<base>"
+    },
+    "bdi": {
+        "prefix": "bdi",
+        "body": "<bdi>$</bdi>"
+    },
+    "bdo": {
+        "prefix": "bdo",
+        "body": "<bdo>$</bdo>"
+    },
+    "blockquote": {
+        "prefix": "blockquote",
+        "body": "<blockquote>$</blockquote>"
+    },
+    "body": {
+        "prefix": "body",
+        "body": "<body>$</body>"
+    },
+    "br": {
+        "prefix": "br",
+        "body": "<br>"
+    },
+    "button": {
+        "prefix": "button",
+        "body": "<button>$</button>"
+    },
+    "canvase": {
+        "prefix": "canvase",
+        "body": "<canvase>$</canvase>"
+    },
+    "city": {
+        "prefix": "city",
+        "body": "<city>$</city>"
+    },
+    "code": {
+        "prefix": "code",
+        "body": "<code>$</code>"
+    },
+    "col": {
+        "prefix": "col",
+        "body": "<col>"
+    },
+    "colgroup": {
+        "prefix": "colgroup",
+        "body": "<colgroup>$</colgroup>"
+    },
+    "data": {
+        "prefix": "data",
+        "body": "<data>$</data>"
+    },
+    "datalist": {
+        "prefix": "datalist",
+        "body": "<datalist>$</datalist>"
+    },
+    "dd": {
+        "prefix": "dd",
+        "body": "<dd>$</dd>"
+    },
+    "del": {
+        "prefix": "del",
+        "body": "<del>$</del>"
+    },
+    "details": {
+        "prefix": "details",
+        "body": "<details>$</details>"
+    },
+    "dfn": {
+        "prefix": "dfn",
+        "body": "<dfn>$</dfn>"
+    },
+    "dialog": {
+        "prefix": "dialog",
+        "body": "<dialog>$</dialog>"
+    },
+    "div": {
+        "prefix": "div",
+        "body": "<div>$</div>"
+    },
+    "dl": {
+        "prefix": "dl",
+        "body": "<dl>$</dl>"
+    },
+    "dt": {
+        "prefix": "dt",
+        "body": "<dt>$</dt>"
+    },
+    "em": {
+        "prefix": "em",
+        "body": "<em>$</em>"
+    },
+    "embed": {
+        "prefix": "embed",
+        "body": "<embed>"
+    },
+    "fieldset": {
+        "prefix": "fieldset",
+        "body": "<fieldset>$</fieldset>"
+    },
+    "figcaption": {
+        "prefix": "figcaption",
+        "body": "<figcaption>$</figcaption>"
+    },
+    "figure": {
+        "prefix": "figure",
+        "body": "<figure>$</figure>"
+    },
+    "footer": {
+        "prefix": "footer",
+        "body": "<footer>$</footer>"
+    },
+    "form": {
+        "prefix": "form",
+        "body": "<form>$</form>"
+    },
+    "h1": {
+        "prefix": "h1",
+        "body": "<h1>$</h1>"
+    },
+    "h2": {
+        "prefix": "h2",
+        "body": "<h2>$</h2>"
+    },
+    "h3": {
+        "prefix": "h3",
+        "body": "<h3>$</h3>"
+    },
+    "h4": {
+        "prefix": "h4",
+        "body": "<h4>$</h4>"
+    },
+    "h5": {
+        "prefix": "h5",
+        "body": "<h5>$</h5>"
+    },
+    "h6": {
+        "prefix": "h6",
+        "body": "<h6>$</h6>"
+    },
+    "html": {
+        "prefix": "html",
+        "body": "<html>$</html>"
+    },
+    "hr": {
+        "prefix": "hr",
+        "body": "<hr>"
+    },
+    "i": {
+        "prefix": "i",
+        "body": "<i>$</i>"
+    },
+    "iframe": {
+        "prefix": "iframe",
+        "body": "<iframe>$</iframe>"
+    },
+    "img": {
+        "prefix": "img",
+        "body": "<img src=\"$\">"
+    },
+    "input": {
+        "prefix": "input",
+        "body": "<input type=\"text\">"
+    },
+    "ins": {
+        "prefix": "ins",
+        "body": "<ins>$</ins>"
+    },
+    "kbd": {
+        "prefix": "kbd",
+        "body": "<kbd>$</kbd>"
+    },
+    "label": {
+        "prefix": "label",
+        "body": "<label>$</label>"
+    },
+    "legend": {
+        "prefix": "legend",
+        "body": "<legend>$</legend>"
+    },
+    "li": {
+        "prefix": "li",
+        "body": "<li>$</li>"
+    },
+    "link": {
+        "prefix": "link",
+        "body": "<link href=\"$\">"
+    },
+    "main": {
+        "prefix": "main",
+        "body": "<main>$</main>"
+    },
+    "map": {
+        "prefix": "map",
+        "body": "<map>$</map>"
+    },
+    "mark": {
+        "prefix": "mark",
+        "body": "<mark>$</mark>"
+    },
+    "meta": {
+        "prefix": "meta",
+        "body": "<meta>"
+    },
+    "meter": {
+        "prefix": "meter",
+        "body": "<meter>$</meter>"
+    },
+    "nav": {
+        "prefix": "nav",
+        "body": "<nav>$</nav>"
+    },
+    "noscript": {
+        "prefix": "noscript",
+        "body": "<noscript>$</noscript>"
+    },
+    "object": {
+        "prefix": "object",
+        "body": "<object>$</object>"
+    },
+    "ol": {
+        "prefix": "ol",
+        "body": "<ol>$</ol>"
+    },
+    "optgroup": {
+        "prefix": "optgroup",
+        "body": "<optgroup>$</optgroup>"
+    },
+    "option": {
+        "prefix": "option",
+        "body": "<option>$</option>"
+    },
+    "output": {
+        "prefix": "output",
+        "body": "<output>$</output>"
+    },
+    "p": {
+        "prefix": "p",
+        "body": "<p>$</p>"
+    },
+    "param": {
+        "prefix": "param",
+        "body": "<param>"
+    },
+    "pre": {
+        "prefix": "pre",
+        "body": "<pre>$</pre>"
+    },
+    "progress": {
+        "prefix": "progress",
+        "body": "<progress>$</progress>"
+    },
+    "q": {
+        "prefix": "q",
+        "body": "<q>$</q>"
+    },
+    "rp": {
+        "prefix": "rp",
+        "body": "<rp>$</rp>"
+    },
+    "rt": {
+        "prefix": "rt",
+        "body": "<rt>$</rt>"
+    },
+    "ruby": {
+        "prefix": "ruby",
+        "body": "<ruby>$</ruby>"
+    },
+    "s": {
+        "prefix": "s",
+        "body": "<s>$</s>"
+    },
+    "samp": {
+        "prefix": "samp",
+        "body": "<samp>$</samp>"
+    },
+    "script": {
+        "prefix": "script",
+        "body": "<script>$</script>"
+    },
+    "section": {
+        "prefix": "section",
+        "body": "<section>$</section>"
+    },
+    "select": {
+        "prefix": "select",
+        "body": "<select>$</select>"
+    },
+    "small": {
+        "prefix": "small",
+        "body": "<small>$</small>"
+    },
+    "source": {
+        "prefix": "source",
+        "body": "<source>$</source>"
+    },
+    "span": {
+        "prefix": "span",
+        "body": "<span>$</span>"
+    },
+    "strong": {
+        "prefix": "strong",
+        "body": "<strong>$</strong>"
+    },
+    "style": {
+        "prefix": "style",
+        "body": "<style>$</style>"
+    },
+    "sub": {
+        "prefix": "sub",
+        "body": "<sub>$</sub>"
+    },
+    "summary": {
+        "prefix": "summary",
+        "body": "<summary>$</summary>"
+    },
+    "sup": {
+        "prefix": "sup",
+        "body": "<sup>$</sup>"
+    },
+    "svg": {
+        "prefix": "svg",
+        "body": "<svg>$</svg>"
+    },
+    "table": {
+        "prefix": "table",
+        "body": "<table>$</table>"
+    },
+    "tbody": {
+        "prefix": "tbody",
+        "body": "<tbody>$</tbody>"
+    },
+    "td": {
+        "prefix": "td",
+        "body": "<td>$</td>"
+    },
+    "template": {
+        "prefix": "template",
+        "body": "<template>$</template>"
+    },
+    "textarea": {
+        "prefix": "textarea",
+        "body": "<textarea>$</textarea>"
+    },
+    "tfoot": {
+        "prefix": "tfoot",
+        "body": "<tfoot>$</tfoot>"
+    },
+    "th": {
+        "prefix": "th",
+        "body": "<th>$</th>"
+    },
+    "thead": {
+        "prefix": "thead",
+        "body": "<thead>$</thead>"
+    },
+    "time": {
+        "prefix": "time",
+        "body": "<time>$</time>"
+    },
+    "title": {
+        "prefix": "title",
+        "body": "<title>$</title>"
+    },
+    "tr": {
+        "prefix": "tr",
+        "body": "<tr>$</tr>"
+    },
+    "track": {
+        "prefix": "track",
+        "body": "<track>$</track>"
+    },
+    "u": {
+        "prefix": "u",
+        "body": "<u>$</u>"
+    },
+    "ul": {
+        "prefix": "ul",
+        "body": "<ul>$</ul>"
+    },
+    "var": {
+        "prefix": "var",
+        "body": "<var>$</var>"
+    },
+    "video": {
+        "prefix": "video",
+        "body": "<video>$</video>"
+    },
+    "wbr": {
+        "prefix": "wbr",
+        "body": "<wbr>$</wbr>"
+    }
+}

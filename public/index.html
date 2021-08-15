@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/icon/favicon.ico" type="image/x-icon">
+    <title>Markdown-try</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/dracula.css">
+    <link rel="stylesheet" href="/styles/autocomplete.css">
+    <link rel="stylesheet" href="/styles/tag-style.css">
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <div class="heading">
+            <div class="left">
+                <h2>Input</h2>
+                <a href="#" id="download-md">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-file-earmark-arrow-down-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm-1 4v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 11.293V7.5a.5.5 0 0 1 1 0z" />
+                    </svg>
+                </a>
+                <input type="text" id="md-filename" placeholder="markdown">
+                <label for="md-filename" class="filename-label">.md</label>
+            </div>
+            <div class="right">
+                <h2>Output</h2>
+                <a href="#" id="download-html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-file-earmark-arrow-down-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm-1 4v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 11.293V7.5a.5.5 0 0 1 1 0z" />
+                    </svg>
+                </a>
+                <input type="text" id="html-filename" placeholder="markdown">
+                <label for="html-filename" class="filename-label">.html</label>
+            </div>
+        </div>
+        <div class="content">
+            <div id="left">
+                <textarea id="input" class="input" spellcheck="false"></textarea>
+            </div>
+            <span class="slider" id="slider"></span>
+            <div id="right">
+                <div id="output" class="output"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="/script/script.js"></script>
+    <script src="/script/autcomplete.js"></script>
+</body>
+
+</html>

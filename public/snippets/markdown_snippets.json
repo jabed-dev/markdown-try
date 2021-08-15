@@ -1,0 +1,122 @@
+{
+    "md-heading-1": {
+        "prefix": "#",
+        "body": "# "
+    },
+    "md-heading-2": {
+        "prefix": "##",
+        "body": "## "
+    },
+    "md-heading-3": {
+        "prefix": "###",
+        "body": "### "
+    },
+    "md-heading-4": {
+        "prefix": "####",
+        "body": "#### "
+    },
+    "md-heading-5": {
+        "prefix": "#####",
+        "body": "##### "
+    },
+    "md-heading-6": {
+        "prefix": "######",
+        "body": "###### "
+    },
+    "md-code": {
+        "prefix": "`",
+        "body": "`$`"
+    },
+    "md-pre-acute": {
+        "prefix": "```",
+        "body": "```$\n```"
+    },
+    "md-pre-tilde": {
+        "prefix": "~~~",
+        "body": "~~~$\n~~~"
+    },
+    "md-italic-star": {
+        "prefix": "*",
+        "body": "*$*"
+    },
+    "md-italic-underscores": {
+        "prefix": "_",
+        "body": "_$_"
+    },
+    "md-bold-star": {
+        "prefix": "**",
+        "body": "**$**"
+    },
+    "md-bold-underscores": {
+        "prefix": "__",
+        "body": "__$__"
+    },
+    "md-underline": {
+        "prefix": "++",
+        "body": "++$++"
+    },
+    "md-del": {
+        "prefix": "~~",
+        "body": "~~$~~"
+    },
+    "md-mark": {
+        "prefix": "==",
+        "body": "==$=="
+    },
+    "md-sub": {
+        "prefix": "^",
+        "body": "^$^"
+    },
+    "md-sup": {
+        "prefix": "~",
+        "body": "~$~"
+    },
+    "md-hr-underscores": {
+        "prefix": "___",
+        "body": "___"
+    },
+    "md-hr-dssh": {
+        "prefix": "---",
+        "body": "---"
+    },
+    "md-hr-star": {
+        "prefix": "***",
+        "body": "***"
+    },
+    "md-tableline": {
+        "prefix": "-|-",
+        "body": "----- | ----- | -----"
+    },
+    "md-link-anchor": {
+        "prefix": "!h",
+        "body": "https://"
+    },
+    "md-link": {
+        "prefix": "[",
+        "body": "[$]()"
+    },
+    "md-image": {
+        "prefix": "![",
+        "body": "![$]()"
+    },
+    "md-image-sizing": {
+        "prefix": "!{",
+        "body": "{width=\"$\", height=\"\"}"
+    },
+    "md-video": {
+        "prefix": "![[",
+        "body": "[![Alternate Text](image-url)](video-url \"Title\")"
+    },
+    "md-task": {
+        "prefix": "-x",
+        "body": "- [$] "
+    },
+    "md-style": {
+        "prefix": "s{",
+        "body": "{style=\"$\"}"
+    },
+    "md-details": {
+        "prefix": ">>",
+        "body": "<details><summary>$</summary>\n<blockquote>\n\n>\n</blockquote>\n</details>"
+    }
+}

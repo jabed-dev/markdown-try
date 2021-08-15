@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #cdd1db;
+}
+.app-container code:not(pre code) {
+    background-color: #7c889760;
+    color: #170b42;
+    border-radius: 4px;
+    font-size: 94%;
+    margin: 0;
+    padding: .1em .3em;
+}
+
+pre .hljs {
+    border-radius: 6px;
+}
+
+.contains-task-list {
+    list-style-type: none;
+    padding-left: 1em;
+}
+
+table, tr, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 4px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.8rem 0;
+}
+
+p, pre {
+    /* overflow: auto; */
+    margin: 0.6rem 0;
+}
+
+hr {
+    border: 2px solid #7b818ad0;
+}
+
