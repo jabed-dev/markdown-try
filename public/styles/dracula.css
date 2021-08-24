@@ -94,3 +94,7 @@ code.hljs {
 .hljs-selector-pseudo {
     color: #00f769
 }
+
+.hljs-attr-value {
+    color: #add8fc
+}
