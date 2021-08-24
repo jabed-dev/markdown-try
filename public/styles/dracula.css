@@ -87,6 +87,10 @@ code.hljs {
     font-weight: 700
 }
 
-.hljs-selector-class, .hljs-selector-id {
+.hljs-selector-class, .hljs-selector-pseudo {
     color: #00f769
+}
+
+.hljs-selector-id {
+    color: #fad430
 }
